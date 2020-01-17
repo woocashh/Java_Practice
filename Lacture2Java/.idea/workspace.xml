@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="104de19b-1a7c-4b3d-a37d-f8abc680f248" name="Default Changelist" comment="" />
+    <list default="true" id="104de19b-1a7c-4b3d-a37d-f8abc680f248" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Example.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +22,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1WCIJv7tHfLjfkg1anIZM9ayvL6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -72,28 +78,50 @@
       <option name="presentableId" value="Default" />
       <updated>1578647081838</updated>
       <workItem from="1578647086495" duration="2387000" />
+      <workItem from="1578685543597" duration="105000" />
+      <workItem from="1579252590512" duration="706000" />
     </task>
+    <task id="LOCAL-00001" summary="Streams">
+      <created>1578685574728</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578685574728</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streams" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="881" height="278" key="GridCell.Tab.0.bottom" timestamp="1578649847916">
+    <state x="95" y="145" width="860" height="816" key="CommitChangelistDialog2" timestamp="1579253369918">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="881" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578649847916" />
-    <state width="881" height="278" key="GridCell.Tab.0.center" timestamp="1578649847916">
+    <state x="95" y="145" width="860" height="816" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1579253369918" />
+    <state width="871" height="277" key="GridCell.Tab.0.bottom" timestamp="1579253311911">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="881" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578649847916" />
-    <state width="881" height="278" key="GridCell.Tab.0.left" timestamp="1578649847915">
+    <state width="871" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579253311911" />
+    <state width="871" height="277" key="GridCell.Tab.0.center" timestamp="1579253311910">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="881" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578649847915" />
-    <state width="881" height="278" key="GridCell.Tab.0.right" timestamp="1578649847916">
+    <state width="871" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579253311910" />
+    <state width="871" height="277" key="GridCell.Tab.0.left" timestamp="1579253311910">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="881" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578649847916" />
+    <state width="871" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579253311910" />
+    <state width="871" height="277" key="GridCell.Tab.0.right" timestamp="1579253311911">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="871" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579253311911" />
+    <state x="125" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578685577586">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="125" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1578685577586" />
   </component>
 </project>
