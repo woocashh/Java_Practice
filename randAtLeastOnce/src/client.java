@@ -19,7 +19,7 @@ public class client {
 
     while (!already.isListReady()){
       current = rand.nextInt(bound);
-      already.updateList(rand.nextInt(bound));
+      already.updateList(current);
       System.out.println(current);
       count ++;
     }
