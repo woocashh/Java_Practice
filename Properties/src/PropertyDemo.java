@@ -4,19 +4,19 @@ public class PropertyDemo {
     PropertyCollection coll = new PropertyCollection();
 
     for (int i = 0; i < 1000; i++) {
-      coll.addProperty(new House(Detach.SEMI_DETACHED));
-      coll.addProperty(new House(Detach.TERRACED));
+      coll.addProperty(new House(Detach.SEMI_DETACHED,1));
+      coll.addProperty(new House(Detach.TERRACED,1));
     }
 
     for (int i = 0; i < 100; i++) {
-      coll.addProperty(new House(Detach.DETACHED));
-      coll.addProperty(new Bungalow(Detach.SEMI_DETACHED));
+      coll.addProperty(new House(Detach.DETACHED,1));
+      coll.addProperty(new Bungalow(Detach.SEMI_DETACHED,1));
       coll.addProperty(new Flat());
     }
 
     for (int i = 0; i < 20; i++) {
-      coll.addProperty(new Bungalow(Detach.DETACHED));
-      coll.addProperty(new Bungalow(Detach.TERRACED));
+      coll.addProperty(new Bungalow(Detach.DETACHED,1));
+      coll.addProperty(new Bungalow(Detach.TERRACED,1));
       coll.addProperty(new Maisonette());
     }
 

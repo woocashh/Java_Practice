@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/BooksAndDicts/BooksAndDicts.iml" filepath="$PROJECT_DIR$/BooksAndDicts/BooksAndDicts.iml" />
       <module fileurl="file://$PROJECT_DIR$/ColouredPoints/ColouredPoints.iml" filepath="$PROJECT_DIR$/ColouredPoints/ColouredPoints.iml" />
       <module fileurl="file://$PROJECT_DIR$/ComparingPeople/ComparingPeople.iml" filepath="$PROJECT_DIR$/ComparingPeople/ComparingPeople.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmailManagementSystem/EmailManagementSystem.iml" filepath="$PROJECT_DIR$/EmailManagementSystem/EmailManagementSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/FlawedHouse/FlawedHouse.iml" filepath="$PROJECT_DIR$/FlawedHouse/FlawedHouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lacture2Java/Lacture2Java.iml" filepath="$PROJECT_DIR$/Lacture2Java/Lacture2Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture1Java/Lecture1Java.iml" filepath="$PROJECT_DIR$/Lecture1Java/Lecture1Java.iml" />
@@ -16,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/Properties/Properties.iml" filepath="$PROJECT_DIR$/Properties/Properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReversedOrderOfInputs/ReversedOrderOfInputs.iml" filepath="$PROJECT_DIR$/ReversedOrderOfInputs/ReversedOrderOfInputs.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shapes/Shapes.iml" filepath="$PROJECT_DIR$/Shapes/Shapes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringStack/StringStack.iml" filepath="$PROJECT_DIR$/StringStack/StringStack.iml" />
       <module fileurl="file://$PROJECT_DIR$/UnderstandingReferences/UnderstandingReferences.iml" filepath="$PROJECT_DIR$/UnderstandingReferences/UnderstandingReferences.iml" />
       <module fileurl="file://$PROJECT_DIR$/WordCount/WordCount.iml" filepath="$PROJECT_DIR$/WordCount/WordCount.iml" />
       <module fileurl="file://$PROJECT_DIR$/lotto/lotto.iml" filepath="$PROJECT_DIR$/lotto/lotto.iml" />
