@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AverageOfNumbers/AverageOfNumbers.iml" filepath="$PROJECT_DIR$/AverageOfNumbers/AverageOfNumbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/BloatedPerson/BloatedPerson.iml" filepath="$PROJECT_DIR$/BloatedPerson/BloatedPerson.iml" />
       <module fileurl="file://$PROJECT_DIR$/LuckyBattlingWithInheritance/BooksAndDictionaries.iml" filepath="$PROJECT_DIR$/LuckyBattlingWithInheritance/BooksAndDictionaries.iml" />
       <module fileurl="file://$PROJECT_DIR$/BooksAndDicts/BooksAndDicts.iml" filepath="$PROJECT_DIR$/BooksAndDicts/BooksAndDicts.iml" />
