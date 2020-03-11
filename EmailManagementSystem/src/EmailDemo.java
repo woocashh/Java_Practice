@@ -1,6 +1,6 @@
 public class EmailDemo {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws AddressAlreadyExistsException {
 
     GroupEmail multicoreProgrammingGroup = new GroupEmail("multicore@doc.ic.ac.uk");
 
@@ -23,6 +23,8 @@ public class EmailDemo {
     multicoreProgrammingGroup.addEmail(softwarePerformanceOptimizationGroup);
 
     IndividualEmailAddress wayne = new IndividualEmailAddress("wayne@doc.ic.ac.uk");
+
+    IndividualEmailAddress wayne1 = new IndividualEmailAddress("wayne@doc.ic.ac.uk");
 
     GroupEmail computerSystemsGroup = new GroupEmail("cosys@doc.ic.ac.uk");
     computerSystemsGroup.addEmail(wayne);

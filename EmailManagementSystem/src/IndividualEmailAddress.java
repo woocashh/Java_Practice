@@ -7,9 +7,10 @@ import java.util.concurrent.Semaphore;
 
 public class IndividualEmailAddress extends EmailAddress  {
 
-  public IndividualEmailAddress(String identifier) {
+  public IndividualEmailAddress(String identifier) throws AddressAlreadyExistsException {
     super(identifier);
   }
+
 
   @Override
   public Set<EmailAddress> getTargets(){

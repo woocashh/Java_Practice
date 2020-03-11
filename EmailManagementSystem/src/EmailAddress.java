@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
@@ -6,9 +8,14 @@ import java.util.Set;
 public abstract class EmailAddress {
 
   protected String identifier;
+  private static Set<String> alreadyIn = new HashSet<>();
 
-  public EmailAddress(String identifier){
-    this.identifier = identifier;
+  public EmailAddress(String identifier) throws AddressAlreadyExistsException {
+    if(alreadyIn.contains(identifier)){
+      throw new AddressAlreadyExistsException(identifier);
+    }else {
+    alreadyIn.add(identifier);
+    this.identifier = identifier;}
   }
 
   @Override

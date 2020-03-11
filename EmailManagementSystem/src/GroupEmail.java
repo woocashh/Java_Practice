@@ -8,7 +8,7 @@ public class GroupEmail extends EmailAddress {
 
   private List<EmailAddress> content;
 
-  public GroupEmail(String identifier){
+  public GroupEmail(String identifier) throws AddressAlreadyExistsException {
     super(identifier);
     this.content = new ArrayList<>();
   }
