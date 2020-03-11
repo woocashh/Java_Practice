@@ -1,9 +1,11 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
-import java.util.LinkedList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -38,7 +40,26 @@ public class Example {
         .collect(Collectors.toList());
   }
 
+
+
+  static <C extends Collection<E>, E> Optional<C>
+  getSmallestCollection(List<C> collections){
+    return collections.stream().reduce((f,s)
+        -> f.size() > s.size() ? s : f);
+
+  }
+
   public static void main(String[] args) {
+
+    final Set<Integer> s1 = new HashSet<>(Arrays.asList(1, 2, 3, 4));
+    final Set<Integer> s2 = new HashSet<>(Arrays.asList(1, 2));
+    final Set<Integer> s3 = new HashSet<>(Arrays.asList(1, 2, 3, 4));
+    final Set<Integer> s4 = new HashSet<>(Arrays.asList(3, 4));
+    final List<Set<Integer>> listOfSetsOfIntegers = Arrays.asList(s1, s2, s3, s4);
+
+    final Optional<Set<Integer>> smallestSet = getSmallestCollection(listOfSetsOfIntegers);
+
+    System.out.println(smallestSet);
 
     final List<String> strings1 = Arrays.asList("Then", "again", "he", "said");
     final List<String> strings2 = Arrays.asList("it", "makes", "me", "wonder", "about", "you");

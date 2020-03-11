@@ -3,7 +3,7 @@ public class GenericStackArray<E> extends AbstractGenericStack<E> {
 
   private E[] content;
 
-  @SuppressWarnings("unchecked")
+  @SuppressWarnings("uncheced")
   // Creates an empty string stack
   public GenericStackArray(){
     this.content =  (E[]) (new Object[100]);
