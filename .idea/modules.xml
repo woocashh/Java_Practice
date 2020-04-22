@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/FlawedHouse/FlawedHouse.iml" filepath="$PROJECT_DIR$/FlawedHouse/FlawedHouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/GarbageCollector/GarbageCollector.iml" filepath="$PROJECT_DIR$/GarbageCollector/GarbageCollector.iml" />
       <module fileurl="file://$PROJECT_DIR$/GenericMethodsWithStreams/GenericMethodsWithStreams.iml" filepath="$PROJECT_DIR$/GenericMethodsWithStreams/GenericMethodsWithStreams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GenericNumManipulation/GenericNumManipulation.iml" filepath="$PROJECT_DIR$/GenericNumManipulation/GenericNumManipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/GenericNumberManipulation/GenericNumberManipulation.iml" filepath="$PROJECT_DIR$/GenericNumberManipulation/GenericNumberManipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/GenericSets/GenericSets.iml" filepath="$PROJECT_DIR$/GenericSets/GenericSets.iml" />
       <module fileurl="file://$PROJECT_DIR$/GenericStack/GenericStack.iml" filepath="$PROJECT_DIR$/GenericStack/GenericStack.iml" />
